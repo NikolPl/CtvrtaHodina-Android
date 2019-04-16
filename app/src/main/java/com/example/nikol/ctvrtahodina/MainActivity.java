@@ -14,7 +14,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ImageView imageView = findViewById(R.id.image);
-        Glide.with(this).load("https://img.csfd.cz/files/images/film/posters/162/505/162505167_735db9.jpg?h180").into(imageView);
+        Glide
+                .with(this)
+                .load("https://img.csfd.cz/files/images/film/posters/162/505/162505167_735db9.jpg")
+                .into(imageView);
 
 
     }
